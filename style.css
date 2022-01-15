@@ -1,0 +1,67 @@
+/*----------
+ fontawasome
+ ------------ */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+      font-family: 'Poppins', sans-serif;    
+}
+.head{
+      border: 1px solid white;
+      padding: 25px;
+      margin-left: 45px;
+}
+.influencers{
+      display: flex;
+      justify-content:space-between;
+      margin: 10px;
+      padding-left: 60px;
+}
+.half-weidth{
+      width:50% ;
+      padding-left: 10px;
+      justify-content: center;
+}
+.half-weidth img{
+      width: 60%;
+}
+.link-buttom{
+      border: 1px solid orangered;
+      border-radius: 15px;
+      padding: 10px;
+      background-color: orangered;
+      text-decoration: none;
+
+}
+.populars{
+      text-align: center;
+}
+.collections{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+}
+.collection
+{
+      border: 5px solid whitesmoke;
+      border-radius: 15px;
+      /* background-color:rgba(187, 64, 19, 0.774) */
+      padding: 15px;
+      margin: 60px;
+}
+.fa-star.field{
+      color:#ffc014
+      ;
+}
+.see{
+      border: 1px solid white;
+      color: tomato;
+      justify-content:space-evenly;
+      margin-left: 85%;
+      
+}
+.opti{
+      display: flex;
+      border: 5px solid whitesmoke ;
+      padding: 15px;
+      margin: 20px;
+      
+}
