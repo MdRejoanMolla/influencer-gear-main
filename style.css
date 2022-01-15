@@ -65,3 +65,8 @@ body{
       margin: 20px;
       
 }
+.foot{
+      text-align: center;
+      border: 1px solid white;
+      background-color: rgba(8, 8, 129, 0.925);
+}
