@@ -16,6 +16,9 @@ body{
       margin: 10px;
       padding-left: 60px;
 }
+#in{
+      transform: scale3d(1.5);
+}
 .half-weidth{
       width:50% ;
       padding-left: 10px;
@@ -23,6 +26,8 @@ body{
 }
 .half-weidth img{
       width: 60%;
+      position: relative;
+      overflow: hidden;
 }
 .link-buttom{
       border: 1px solid orangered;
@@ -32,8 +37,23 @@ body{
       text-decoration: none;
 
 }
+#camera:hover{
+      transform: scale(1.4);
+      transition: transform 2s ease-in-out;
+}
+/* --------
+  MAINBODY
+  -------- */
 .populars{
       text-align: center;
+      position: relative;
+      overflow: hidden;
+}
+.populars:hover{
+      transform: scale(.7);
+      transition: transform 3s ease-in-out;
+      color:coral;
+
 }
 .collections{
       display: grid;
@@ -65,8 +85,44 @@ body{
       margin: 20px;
       
 }
+/* -----
+FOOTER
+-------*/
+
 .foot{
       text-align: center;
       border: 1px solid white;
       background-color: rgba(8, 8, 129, 0.925);
+}
+/*--------------- 
+  MEDIA QUERIES
+----------------- */
+
+/* MOBILE DEVICES */
+
+@media only screen and (max-width:688px) {
+       .collections {
+            grid-template-columns: repeat(1,1fr);
+            flex-direction: column;
+            width: 100%;
+
+      }
+      .influencers{
+           flex-direction: column;
+            grid-template-columns: repeat(1,1fr);
+            
+            width: 100%;
+          
+          
+      }
+      .opti{
+            flex-direction: column;
+            grid-template-columns: repeat(1,1fr);
+            
+            width: 100%;
+      } 
+
+
+}
+      
 }
